@@ -12,8 +12,8 @@ export default {
 </script>
 
 <template>
-  <div class="row text-center">
-    <h1>wewe</h1>
+  <div class="row text-center my-2">
+    <h1 class="my-4">Projects</h1>
     <AppMain />
   </div>
 </template>
