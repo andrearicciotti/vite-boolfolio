@@ -1,6 +1,6 @@
 <script>
 import axios from 'axios';
-import MainProject from './MainProject.vue';
+import MainProject from '../components/MainProject.vue';
 
 export default {
     data() {
