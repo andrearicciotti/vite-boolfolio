@@ -1,24 +1,21 @@
 <script>
-import AppMain from "../src/assets/pages/AppMain.vue";
+import AppHeader from './assets/components/AppHeader.vue';
 
 export default {
   data() {
     return {};
   },
   components: {
-    AppMain,
+    AppHeader,
   }
 }
 </script>
 
 <template>
-  <div class="row text-center my-2">
-    <h1 class="my-4">Projects</h1>
-    <AppMain />
-  </div>
+  <AppHeader />
+  <router-view></router-view>
 </template>
 
 <style lang="scss">
 @use './assets/styles/general.scss' as *;
-
 </style>
